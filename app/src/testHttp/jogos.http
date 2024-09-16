@@ -1,0 +1,32 @@
+@baseUrl = https://8080-dennisfaria-springsecur-bkujgbw266o.ws-us116.gitpod.io/
+
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVGFyZWZhcyIsInN1YiI6ImFkbWluIiwiZXhwIjoxNzI1MzE2MDkwfQ.NTx2ZmR2G3_rcfhWp9PnTJi6Rc0Yp79sJczrc02ZFK8
+
+###
+GET {{baseUrl}}/jogos
+Authorization: Bearer {{token}}
+
+###
+POST {{baseUrl}}/jogos
+Authorization: Bearer{{token}}
+Content-Type: application/json
+
+{
+    "nome": "Counter Strike",
+    "categoria": "Ação e estratégia"
+}
+
+###
+GET {{baseUrl}}/jogos/3
+
+###
+PUT {{baseUrl}}/jogos/1
+Content-Type: application/json
+
+{
+    "nome": "FIFA 2024",
+    "categoria": "Esportes"
+}
+
+###
+DELETE {{baseUrl}}/jogos/2
