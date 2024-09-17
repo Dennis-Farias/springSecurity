@@ -1,6 +1,6 @@
 @baseUrl = https://8080-dennisfaria-springsecur-bkujgbw266o.ws-us116.gitpod.io/
 
-@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVGFyZWZhcyIsInN1YiI6ImFkbWluIiwiZXhwIjoxNzI1MzE2MDkwfQ.NTx2ZmR2G3_rcfhWp9PnTJi6Rc0Yp79sJczrc02ZFK8
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJBUEkgVGFyZWZhcyIsInN1YiI6InVzdWFyaW8iLCJleHAiOjE3MjY2MjY1OTh9.HQugM4yFZmJMUWp19_BLvRcqUy81o035PMzppU8HiHU
 
 ###
 GET {{baseUrl}}/jogos
